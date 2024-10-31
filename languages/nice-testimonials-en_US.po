@@ -1,0 +1,1024 @@
+# Copyright (C) 2015 NiceThemes
+# This file is distributed under the same license as the Nice_Testimonials package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Nice Testimonials\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/plugins/plugin-name\n"
+"POT-Creation-Date: 2016-08-07 19:13-0300\n"
+"PO-Revision-Date: 2016-08-07 19:13-0300\n"
+"Last-Translator: NiceThemes <hello@nicethemes.com>\n"
+"Language-Team: NiceThemes <hello@nicethemes.com >\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.5\n"
+"X-Poedit-KeywordsList: __;_e;_n;_x;esc_html_e;esc_html__;esc_attr_e;esc_attr__;"
+"_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_x:1,2c;_n:1,2\n"
+"X-Poedit-Basepath: ../\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: vendor\n"
+
+#: admin/action-links.php:37 admin/ui/init.php:30 admin/ui/sections.php:29
+msgid "Settings"
+msgstr "Settings"
+
+#: admin/help-pointers.php:36
+msgid ""
+"Thank you for installing this plugin :) In this page you can set all the "
+"available options to display your testimonials the way you want."
+msgstr ""
+"Thank you for installing this plugin :) In this page you can set all the "
+"available options to display your testimonials the way you want."
+
+#: admin/notices.php:94
+#, php-format
+msgid ""
+"You just installed %1$s. Go to %2$sTestimonials Settings%3$s to configure the "
+"plugin or %4$sdismiss this message%5$s."
+msgstr ""
+"You just installed %1$s. Go to %2$sTestimonials Settings%3$s to configure the "
+"plugin or %4$sdismiss this message%5$s."
+
+#: admin/post-types/testimonial/metaboxes.php:51
+msgid "Customer's URL"
+msgstr "Customer's URL"
+
+#: admin/post-types/testimonial/metaboxes.php:53
+msgid "Link to the customer's website (optional)."
+msgstr "Link to the customer's website (optional)."
+
+#: admin/post-types/testimonial/metaboxes.php:60
+msgid "Open in a new window/tab"
+msgstr "Open in a new window/tab"
+
+#: admin/post-types/testimonial/metaboxes.php:62
+msgid ""
+"Tick this option if you want the customer's link to be opened in a new window/"
+"tab (optional)."
+msgstr ""
+"Tick this option if you want the customer's link to be opened in a new window/"
+"tab (optional)."
+
+#: admin/post-types/testimonial/metaboxes.php:69
+msgid "Customer's Email"
+msgstr "Customer's Email"
+
+#: admin/post-types/testimonial/metaboxes.php:71
+msgid ""
+"Email address to show the customer's avatar from Gravatar (optional). If not "
+"set, we'll use the featured image instead."
+msgstr ""
+"Email address to show the customer's avatar from Gravatar (optional). If not "
+"set, we'll use the featured image instead."
+
+#: admin/post-types/testimonial/metaboxes.php:78
+msgid "Customer's Byline"
+msgstr "Customer's Byline"
+
+#: admin/post-types/testimonial/metaboxes.php:80
+msgid "Enter here the customer's position."
+msgstr "Enter here the customer's position."
+
+#: admin/post-types/testimonial/metaboxes.php:95
+msgid "Testimonial Details"
+msgstr "Testimonial Details"
+
+#: admin/post-types/testimonial/metaboxes.php:126
+msgid "Enter the customer's name here"
+msgstr "Enter the customer's name here"
+
+#: admin/post-types/testimonial/metaboxes.php:143
+msgid "Customer's image"
+msgstr "Customer's image"
+
+#: admin/post-types/testimonial/metaboxes.php:171
+msgid "Set featured image"
+msgstr "Set featured image"
+
+#: admin/post-types/testimonial/metaboxes.php:172
+msgid "Set customer's image"
+msgstr "Set customer's image"
+
+#: admin/post-types/testimonial/metaboxes.php:177
+msgid "Remove featured image"
+msgstr "Remove featured image"
+
+#: admin/post-types/testimonial/metaboxes.php:178
+msgid "Remove customer's image"
+msgstr "Remove customer's image"
+
+#: admin/post-types/testimonial/metaboxes.php:217
+#: admin/post-types/testimonial/metaboxes.php:218
+msgid "Set Customer's Image"
+msgstr "Set Customer's Image"
+
+#: admin/post-types/testimonial/post-type.php:81
+#: admin/post-types/testimonial/post-type.php:86
+msgid "Testimonial updated."
+msgstr "Testimonial updated."
+
+#: admin/post-types/testimonial/post-type.php:84
+msgid "Custom field updated."
+msgstr "Custom field updated."
+
+#: admin/post-types/testimonial/post-type.php:85
+msgid "Custom field deleted."
+msgstr "Custom field deleted."
+
+#: admin/post-types/testimonial/post-type.php:88
+#, php-format
+msgid "Testimonial restored to revision from %s"
+msgstr "Testimonial restored to revision from %s"
+
+#: admin/post-types/testimonial/post-type.php:89
+msgid "Testimonial published."
+msgstr "Testimonial published."
+
+#: admin/post-types/testimonial/post-type.php:90
+msgid "Testimonial saved."
+msgstr "Testimonial saved."
+
+#: admin/post-types/testimonial/post-type.php:91
+msgid "Testimonial submitted."
+msgstr "Testimonial submitted."
+
+#: admin/post-types/testimonial/post-type.php:93
+#, php-format
+msgid "Testimonial scheduled for: <strong>%1$s</strong>."
+msgstr "Testimonial scheduled for: <strong>%1$s</strong>."
+
+#: admin/post-types/testimonial/post-type.php:95
+msgid "M j, Y @ G:i"
+msgstr "M j, Y @ G:i"
+
+#: admin/post-types/testimonial/post-type.php:97
+msgid "Testimonial draft updated."
+msgstr "Testimonial draft updated."
+
+#: admin/templates/widget-testimonials-form.php:17
+msgid "Widget Title (optional)"
+msgstr "Widget Title (optional)"
+
+#: admin/templates/widget-testimonials-form.php:21
+msgid "Number of Testimonials to Show"
+msgstr "Number of Testimonials to Show"
+
+#: admin/templates/widget-testimonials-form.php:25
+msgid "Image Size (in pixels)"
+msgstr "Image Size (in pixels)"
+
+#: admin/templates/widget-testimonials-form.php:29
+msgid "Order Testimonials By"
+msgstr "Order Testimonials By"
+
+#: admin/templates/widget-testimonials-form.php:31
+#: admin/templates/widget-testimonials-form.php:48 admin/ui/settings.php:75
+#: admin/ui/settings.php:87
+msgid "Select an option"
+msgstr "Select an option"
+
+#: admin/templates/widget-testimonials-form.php:33
+msgid "Specified Order Setting"
+msgstr "Specified Order Setting"
+
+#: admin/templates/widget-testimonials-form.php:34 admin/ui/settings.php:69
+msgid "Testimonial ID"
+msgstr "Testimonial ID"
+
+#: admin/templates/widget-testimonials-form.php:35 admin/ui/settings.php:70
+msgid "Title"
+msgstr "Title"
+
+#: admin/templates/widget-testimonials-form.php:36 admin/ui/settings.php:71
+msgid "Menu Order"
+msgstr "Menu Order"
+
+#: admin/templates/widget-testimonials-form.php:37 admin/ui/settings.php:72
+msgid "Date"
+msgstr "Date"
+
+#: admin/templates/widget-testimonials-form.php:38 admin/ui/settings.php:73
+msgid "Random Order"
+msgstr "Random Order"
+
+#: admin/templates/widget-testimonials-form.php:46
+msgid "Sort Testimonials By"
+msgstr "Sort Testimonials By"
+
+#: admin/templates/widget-testimonials-form.php:50
+msgid "Specified Sort Setting"
+msgstr "Specified Sort Setting"
+
+#: admin/templates/widget-testimonials-form.php:51 admin/ui/settings.php:84
+msgid "Ascending Order"
+msgstr "Ascending Order"
+
+#: admin/templates/widget-testimonials-form.php:52 admin/ui/settings.php:85
+msgid "Descending Order"
+msgstr "Descending Order"
+
+#: admin/templates/widget-testimonials-form.php:62
+msgid "Display Fields"
+msgstr "Display Fields"
+
+#: admin/templates/widget-testimonials-form.php:65
+msgid "Use specified field settings"
+msgstr "Use specified field settings"
+
+#: admin/templates/widget-testimonials-form.php:68
+msgid "Use custom settings"
+msgstr "Use custom settings"
+
+#: admin/templates/widget-testimonials-form.php:73
+msgid "Display These Fields:"
+msgstr "Display These Fields:"
+
+#: admin/templates/widget-testimonials-form.php:77
+msgid "Author"
+msgstr "Author"
+
+#: admin/templates/widget-testimonials-form.php:81
+msgid "Avatar"
+msgstr "Avatar"
+
+#: admin/templates/widget-testimonials-form.php:85
+msgid "URL"
+msgstr "URL"
+
+#: admin/templates/widget-testimonials-form.php:89
+#: includes/post-types/testimonial/category.php:36
+msgid "Category"
+msgstr "Category"
+
+#: admin/templates/widget-testimonials-form.php:96
+#: includes/post-types/testimonial/category.php:39
+msgid "All Categories"
+msgstr "All Categories"
+
+#: admin/templates/widget-testimonials-form.php:102 admin/ui/settings.php:92
+msgid "Include Child Categories"
+msgstr "Include Child Categories"
+
+#: admin/templates/widget-testimonials-form.php:105
+msgid "Specific ID (optional)"
+msgstr "Specific ID (optional)"
+
+#: admin/templates/widget-testimonials-form.php:107
+msgid "Display a specific testimonial instead of a list."
+msgstr "Display a specific testimonial instead of a list."
+
+#: admin/ui/footer-links.php:30
+msgid "Themes"
+msgstr "Themes"
+
+#: admin/ui/footer-links.php:36
+msgid "Plugins"
+msgstr "Plugins"
+
+#: admin/ui/footer-links.php:42 admin/ui/help-tabs.php:50
+#: admin/ui/templates/help-tab-help.php:16
+msgid "Help & Support"
+msgstr "Help & Support"
+
+#: admin/ui/footer-links.php:48 admin/ui/templates/help-sidebar.php:20
+msgid "Rate this plugin"
+msgstr "Rate this plugin"
+
+#: admin/ui/help-tabs.php:40 admin/ui/settings-groups.php:29
+#: admin/ui/templates/help-tab-general.php:16
+msgid "General Settings"
+msgstr "General Settings"
+
+#: admin/ui/help-tabs.php:45 admin/ui/settings-groups.php:36
+#: admin/ui/templates/help-tab-advanced.php:16
+msgid "Advanced Settings"
+msgstr "Advanced Settings"
+
+#: admin/ui/help-tabs.php:55
+msgid "Compatible Themes"
+msgstr "Compatible Themes"
+
+#: admin/ui/sections.php:30
+msgid "Nice Testimonials Settings"
+msgstr "Nice Testimonials Settings"
+
+#: admin/ui/sections.php:32
+msgid ""
+"Welcome to the Settings Panel. Here you can set up and configure all of the "
+"different options for this magnificent plugin."
+msgstr ""
+"Welcome to the Settings Panel. Here you can set up and configure all of the "
+"different options for this magnificent plugin."
+
+#: admin/ui/sections.php:36
+msgid "About"
+msgstr "About"
+
+#: admin/ui/sections.php:37
+msgid "About Nice Testimonials"
+msgstr "About Nice Testimonials"
+
+#: admin/ui/settings-groups.php:30
+msgid ""
+"Configure how your testimonials will be displayed by default. All these options "
+"can be overridden in a shortcode basis."
+msgstr ""
+"Configure how your testimonials will be displayed by default. All these options "
+"can be overridden in a shortcode basis."
+
+#: admin/ui/settings-groups.php:37
+msgid ""
+"Options presented here are for advanced users only, so you must use them "
+"carefully."
+msgstr ""
+"Options presented here are for advanced users only, so you must use them "
+"carefully."
+
+#: admin/ui/settings.php:31
+msgid "Number of Testimonials"
+msgstr "Number of Testimonials"
+
+#: admin/ui/settings.php:32
+msgid ""
+"The number of testimonials to be displayed. A value of 0 (zero) means no "
+"testimonials will display. Use -1 (minus one) to display unlimited testimonials."
+msgstr ""
+"The number of testimonials to be displayed. A value of 0 (zero) means no "
+"testimonials will display. Use -1 (minus one) to display unlimited testimonials."
+
+#: admin/ui/settings.php:32 admin/ui/settings.php:39 admin/ui/settings.php:46
+#: admin/ui/settings.php:66 admin/ui/settings.php:81
+#, php-format
+msgid "You can override this setting in shortcodes using the %s property."
+msgstr "You can override this setting in shortcodes using the %s property."
+
+#: admin/ui/settings.php:38
+msgid "Number of Columns"
+msgstr "Number of Columns"
+
+#: admin/ui/settings.php:39
+msgid "The number of columns for the testimonials."
+msgstr "The number of columns for the testimonials."
+
+#: admin/ui/settings.php:45
+msgid "Size of Image (in pixels)"
+msgstr "Size of Image (in pixels)"
+
+#: admin/ui/settings.php:46
+msgid "The size of your testimonial image."
+msgstr "The size of your testimonial image."
+
+#: admin/ui/settings.php:52
+msgid "Show Information"
+msgstr "Show Information"
+
+#: admin/ui/settings.php:53
+msgid "Select the information that should be displayed within a testimonial."
+msgstr "Select the information that should be displayed within a testimonial."
+
+#: admin/ui/settings.php:56
+msgid "Author name"
+msgstr "Author name"
+
+#: admin/ui/settings.php:57
+msgid "Author image"
+msgstr "Author image"
+
+#: admin/ui/settings.php:58
+msgid "Author URL"
+msgstr "Author URL"
+
+#: admin/ui/settings.php:59
+msgid "Link to author URL from image"
+msgstr "Link to author URL from image"
+
+#: admin/ui/settings.php:65
+msgid "Order items by"
+msgstr "Order items by"
+
+#: admin/ui/settings.php:80
+msgid "Sort items by"
+msgstr "Sort items by"
+
+#: admin/ui/settings.php:93
+msgid "Show children of parent categories."
+msgstr "Show children of parent categories."
+
+#: admin/ui/settings.php:99
+msgid "Avoid Plugin CSS"
+msgstr "Avoid Plugin CSS"
+
+#: admin/ui/settings.php:100
+msgid "Apply styles to testimonials elements using your own CSS."
+msgstr "Apply styles to testimonials elements using your own CSS."
+
+#: admin/ui/settings.php:110
+msgid "Remove Data On Deactivation"
+msgstr "Remove Data On Deactivation"
+
+#: admin/ui/settings.php:111
+msgid "Delete all plugin settings once you deactivate it."
+msgstr "Delete all plugin settings once you deactivate it."
+
+#: admin/ui/sidebar-boxes.php:34
+msgid "Subscribe to our Newsletter"
+msgstr "Subscribe to our Newsletter"
+
+#: admin/ui/sidebar-boxes.php:38
+msgid "Need help with this plugin?"
+msgstr "Need help with this plugin?"
+
+#: admin/ui/sidebar-boxes.php:42
+msgid "Like this plugin?"
+msgstr "Like this plugin?"
+
+#: admin/ui/sidebar-boxes.php:46
+msgid "Join us on"
+msgstr "Join us on"
+
+#: admin/ui/tabs.php:32
+msgid "General"
+msgstr "General"
+
+#: admin/ui/tabs.php:42
+msgid "Advanced"
+msgstr "Advanced"
+
+#: admin/ui/templates/about-heading.php:18
+msgid "A beautiful and organized way to show quotes from your customers."
+msgstr "A beautiful and organized way to show quotes from your customers."
+
+#: admin/ui/templates/help-sidebar.php:16
+msgid "For more information:"
+msgstr "For more information:"
+
+#: admin/ui/templates/help-sidebar.php:17
+msgid "WordPress.org Plugin"
+msgstr "WordPress.org Plugin"
+
+#: admin/ui/templates/help-sidebar.php:18
+msgid "Github Project"
+msgstr "Github Project"
+
+#: admin/ui/templates/help-sidebar.php:19
+#: admin/ui/templates/help-tab-themes.php:15
+msgid "Official Themes"
+msgstr "Official Themes"
+
+#: admin/ui/templates/help-tab-advanced.php:18
+msgid ""
+"This screen provides settings for advanced users, such as removing all the "
+"configurations for this plugin when you deactivate it."
+msgstr ""
+"This screen provides settings for advanced users, such as removing all the "
+"configurations for this plugin when you deactivate it."
+
+#: admin/ui/templates/help-tab-advanced.php:20
+#, php-format
+msgid ""
+"If you need further support, please consider checking the %sdocumentation%s or "
+"%sreporting a bug%s."
+msgstr ""
+"If you need further support, please consider checking the %sdocumentation%s or "
+"%sreporting a bug%s."
+
+#: admin/ui/templates/help-tab-general.php:18
+msgid ""
+"Configure how your Testimonials will be displayed by default. The options "
+"presented here can be overridden in a shortcode basis. You can set the number of "
+"testimonials to display by default, change the size of the images, select the "
+"information you want to show, etc."
+msgstr ""
+"Configure how your Testimonials will be displayed by default. The options "
+"presented here can be overridden in a shortcode basis. You can set the number of "
+"testimonials to display by default, change the size of the images, select the "
+"information you want to show, etc."
+
+#: admin/ui/templates/help-tab-general.php:20
+#, php-format
+msgid ""
+"This screen provides the most basic settings for configuring the plugin. If you "
+"need further support, please consider checking the %sdocumentation%s or "
+"%sreporting a bug%s."
+msgstr ""
+"This screen provides the most basic settings for configuring the plugin. If you "
+"need further support, please consider checking the %sdocumentation%s or "
+"%sreporting a bug%s."
+
+#: admin/ui/templates/help-tab-help.php:18
+#, php-format
+msgid ""
+"Before asking for help we recommend checking the %splugin documentation%s to "
+"identify any problems with your configuration."
+msgstr ""
+"Before asking for help we recommend checking the %splugin documentation%s to "
+"identify any problems with your configuration."
+
+#: admin/ui/templates/help-tab-help.php:20
+#, php-format
+msgid ""
+"After reading the documentation, for further assistance you can use our "
+"%scommunity forum%s."
+msgstr ""
+"After reading the documentation, for further assistance you can use our "
+"%scommunity forum%s."
+
+#: admin/ui/templates/help-tab-help.php:22
+msgid "Found a bug?"
+msgstr "Found a bug?"
+
+#: admin/ui/templates/help-tab-help.php:24
+msgid ""
+"If you find a bug within this plugin, you can either report it in our forum or "
+"create a ticket via GitHub issues. Be as descriptive as possible and please tell "
+"us how to reproduce the issue step by step."
+msgstr ""
+"If you find a bug within this plugin, you can either report it in our forum or "
+"create a ticket via GitHub issues. Be as descriptive as possible and please tell "
+"us how to reproduce the issue step by step."
+
+#: admin/ui/templates/help-tab-help.php:26
+msgid "Report bug in GitHub"
+msgstr "Report bug in GitHub"
+
+#: admin/ui/templates/help-tab-help.php:26
+msgid "Report bug in forum"
+msgstr "Report bug in forum"
+
+#: admin/ui/templates/help-tab-themes.php:17
+msgid ""
+"We create wonderful WordPress Plugins and Themes. Some of them are distributed "
+"for free, like this one. If you like this plugin, please consider checking our "
+"paid products."
+msgstr ""
+"We create wonderful WordPress Plugins and Themes. Some of them are distributed "
+"for free, like this one. If you like this plugin, please consider checking our "
+"paid products."
+
+#: admin/ui/templates/help-tab-themes.php:19
+msgid "Check the official Themes"
+msgstr "Check the official Themes"
+
+#: admin/ui/templates/widget-help.php:16
+msgid ""
+"We have some documentation for you to start taking the most out of this "
+"wonderful WordPress plugin."
+msgstr ""
+"We have some documentation for you to start taking the most out of this "
+"wonderful WordPress plugin."
+
+#: admin/ui/templates/widget-help.php:17
+msgid "Read plugin documentation"
+msgstr "Read plugin documentation"
+
+#: admin/ui/templates/widget-newsletter.php:16
+msgid ""
+"If you would like to keep up to date regarding Nice Testimonials and other "
+"plugins by NiceThemes, subscribe to the newsletter:"
+msgstr ""
+"If you would like to keep up to date regarding Nice Testimonials and other "
+"plugins by NiceThemes, subscribe to the newsletter:"
+
+#: admin/ui/templates/widget-newsletter.php:35
+msgid "Email Address"
+msgstr "Email Address"
+
+#: admin/ui/templates/widget-newsletter.php:45
+msgid "Get me in!"
+msgstr "Get me in!"
+
+#: admin/ui/templates/widget-rate-plugin.php:16
+msgid ""
+"If you like this plugin, please rate it 5 stars on WordPress.org and consider "
+"checking our paid products."
+msgstr ""
+"If you like this plugin, please rate it 5 stars on WordPress.org and consider "
+"checking our paid products."
+
+#: admin/ui/templates/widget-rate-plugin.php:18
+msgid "See our official themes"
+msgstr "See our official themes"
+
+#: admin/ui/templates/widget-rate-plugin.php:19
+msgid "Check other plugins by NiceThemes"
+msgstr "Check other plugins by NiceThemes"
+
+#: includes/i18n.php:26
+msgid "Nice Testimonials"
+msgstr "Nice Testimonials"
+
+#: includes/i18n.php:27
+msgid "Nice Testimonials By NiceThemes"
+msgstr "Nice Testimonials By NiceThemes"
+
+#: includes/i18n.php:28
+msgid ""
+"Show testimonials from your customers in your WordPress site in a beautiful and "
+"organized way."
+msgstr ""
+"Show testimonials from your customers in your WordPress site in a beautiful and "
+"organized way."
+
+#: includes/post-types/testimonial/category.php:33
+msgid "Testimonial Categories"
+msgstr "Testimonial Categories"
+
+#: includes/post-types/testimonial/category.php:34
+msgid "Testimonial Category"
+msgstr "Testimonial Category"
+
+#: includes/post-types/testimonial/category.php:35
+msgid "Categories"
+msgstr "Categories"
+
+#: includes/post-types/testimonial/category.php:37
+msgid "Search Categories"
+msgstr "Search Categories"
+
+#: includes/post-types/testimonial/category.php:38
+msgid "Popular Categories"
+msgstr "Popular Categories"
+
+#: includes/post-types/testimonial/category.php:40
+msgid "Edit Category"
+msgstr "Edit Category"
+
+#: includes/post-types/testimonial/category.php:41
+msgid "View Category"
+msgstr "View Category"
+
+#: includes/post-types/testimonial/category.php:42
+msgid "Update Category"
+msgstr "Update Category"
+
+#: includes/post-types/testimonial/category.php:43
+msgid "Add New Category"
+msgstr "Add New Category"
+
+#: includes/post-types/testimonial/category.php:44
+msgid "New Category Name"
+msgstr "New Category Name"
+
+#: includes/post-types/testimonial/category.php:45
+msgid "Parent Category"
+msgstr "Parent Category"
+
+#: includes/post-types/testimonial/category.php:46
+msgid "Parent Category:"
+msgstr "Parent Category:"
+
+#: includes/post-types/testimonial/post-type.php:33
+#: includes/post-types/testimonial/post-type.php:35
+msgid "Testimonials"
+msgstr "Testimonials"
+
+#: includes/post-types/testimonial/post-type.php:34
+#: includes/post-types/testimonial/post-type.php:36
+msgid "Testimonial"
+msgstr "Testimonial"
+
+#: includes/post-types/testimonial/post-type.php:37
+msgid "Add New"
+msgstr "Add New"
+
+#: includes/post-types/testimonial/post-type.php:38
+msgid "Add New Testimonial"
+msgstr "Add New Testimonial"
+
+#: includes/post-types/testimonial/post-type.php:39
+msgid "Edit Testimonial"
+msgstr "Edit Testimonial"
+
+#: includes/post-types/testimonial/post-type.php:40
+msgid "New Testimonial"
+msgstr "New Testimonial"
+
+#: includes/post-types/testimonial/post-type.php:41
+msgid "View Testimonial"
+msgstr "View Testimonial"
+
+#: includes/post-types/testimonial/post-type.php:42
+msgid "Search Testimonial"
+msgstr "Search Testimonial"
+
+#: includes/post-types/testimonial/post-type.php:43
+msgid "No testimonials found"
+msgstr "No testimonials found"
+
+#: includes/post-types/testimonial/post-type.php:44
+msgid "No testimonials found in trash"
+msgstr "No testimonials found in trash"
+
+#: includes/post-types/testimonial/post-type.php:45
+msgid "All Testimonials"
+msgstr "All Testimonials"
+
+#: includes/widgets/class-widget-testimonials.php:119
+msgid "(NiceThemes) Testimonials"
+msgstr "(NiceThemes) Testimonials"
+
+#: includes/widgets/class-widget-testimonials.php:127
+msgid "A widget that displays the most recent testimonials."
+msgstr "A widget that displays the most recent testimonials."
+
+#: lib/admin-ui/display/class-admin-ui-display-responder.php:179
+msgid "Use This File"
+msgstr "Use This File"
+
+#: lib/admin-ui/display/class-admin-ui-display-responder.php:181
+msgid "Remove"
+msgstr "Remove"
+
+#: lib/admin-ui/display/class-admin-ui-display-responder.php:370
+msgid "Upload file"
+msgstr "Upload file"
+
+#: lib/admin-ui/includes/class-admin-ui-html-handler.php:176
+msgid "Search"
+msgstr "Search"
+
+#: lib/custom-post-type/glancer/domain/class-glancer-service.php:71
+msgid ""
+"Trying to add At a Glance items to dashboard widget after hook already fired"
+msgstr ""
+"Trying to add At a Glance items to dashboard widget after hook already fired"
+
+#: lib/custom-post-type/metabox/create/class-metabox-create-responder.php:101
+#, php-format
+msgid "%s Settings"
+msgstr "%s Settings"
+
+#: lib/custom-post-type/metabox/includes/class-metabox-html-handler.php:242
+#, php-format
+msgid ""
+"%s method is not implemented yet. Please use another method to display an option "
+"for %s"
+msgstr ""
+"%s method is not implemented yet. Please use another method to display an option "
+"for %s"
+
+#: lib/custom-post-type/post-type-admin/display/class-post-type-admin-display-responder.php:69
+msgid "Image"
+msgstr "Image"
+
+#: lib/custom-post-type/post-type/domain/class-post-type-service.php:109
+#: lib/custom-post-type/post-type/domain/class-post-type-service.php:110
+#, php-format
+msgid "Add %s"
+msgstr "Add %s"
+
+#: lib/custom-post-type/post-type/domain/class-post-type-service.php:111
+#: lib/custom-post-type/post-type/domain/class-post-type-service.php:183
+#, php-format
+msgid "Edit %s"
+msgstr "Edit %s"
+
+#: lib/custom-post-type/post-type/domain/class-post-type-service.php:112
+#, php-format
+msgid "New %s"
+msgstr "New %s"
+
+#: lib/custom-post-type/post-type/domain/class-post-type-service.php:113
+#, php-format
+msgid "View %s"
+msgstr "View %s"
+
+#: lib/custom-post-type/post-type/domain/class-post-type-service.php:114
+#: lib/custom-post-type/post-type/domain/class-post-type-service.php:190
+#, php-format
+msgid "Search %s"
+msgstr "Search %s"
+
+#: lib/custom-post-type/post-type/domain/class-post-type-service.php:115
+#, php-format
+msgid "No %s found"
+msgstr "No %s found"
+
+#: lib/custom-post-type/post-type/domain/class-post-type-service.php:116
+#, php-format
+msgid "No %s in the trash"
+msgstr "No %s in the trash"
+
+#: lib/custom-post-type/post-type/domain/class-post-type-service.php:184
+#, php-format
+msgid "Update %s"
+msgstr "Update %s"
+
+#: lib/custom-post-type/post-type/domain/class-post-type-service.php:185
+#, php-format
+msgid "Add New %s"
+msgstr "Add New %s"
+
+#: lib/custom-post-type/post-type/domain/class-post-type-service.php:186
+#, php-format
+msgid "New %s Name"
+msgstr "New %s Name"
+
+#: lib/custom-post-type/post-type/domain/class-post-type-service.php:187
+#, php-format
+msgid "Parent %s"
+msgstr "Parent %s"
+
+#: lib/custom-post-type/post-type/domain/class-post-type-service.php:188
+#, php-format
+msgid "Parent %s:"
+msgstr "Parent %s:"
+
+#: lib/custom-post-type/post-type/domain/class-post-type-service.php:189
+#, php-format
+msgid "All %s"
+msgstr "All %s"
+
+#: lib/custom-post-type/post-type/domain/class-post-type-service.php:191
+#, php-format
+msgid "Popular %s"
+msgstr "Popular %s"
+
+#: lib/custom-post-type/post-type/domain/class-post-type-service.php:192
+#, php-format
+msgid "Separate %s with commas"
+msgstr "Separate %s with commas"
+
+#: lib/custom-post-type/post-type/domain/class-post-type-service.php:193
+#, php-format
+msgid "Add or remove %s"
+msgstr "Add or remove %s"
+
+#: lib/custom-post-type/post-type/domain/class-post-type-service.php:194
+#, php-format
+msgid "Choose from the most used %s"
+msgstr "Choose from the most used %s"
+
+#: lib/custom-post-type/post-type/domain/class-post-type-service.php:195
+#, php-format
+msgid "No %s found."
+msgstr "No %s found."
+
+#: lib/nice-adr/src/functions.php:237
+#, php-format
+msgid "%s action does not exist. You need to create it in order to proceed."
+msgstr "%s action does not exist. You need to create it in order to proceed."
+
+#: lib/plugin-api/admin/create/class-admin-create-responder.php:69
+#, php-format
+msgid ""
+"%1$s requires WordPress %2$s or higher, and has been deactivated. Please upgrade "
+"WordPress and try again."
+msgstr ""
+"%1$s requires WordPress %2$s or higher, and has been deactivated. Please upgrade "
+"WordPress and try again."
+
+#: lib/plugin-api/admin/create/class-admin-create-responder.php:71
+#: lib/plugin-api/admin/create/class-admin-create-responder.php:78
+#: lib/plugin-api/admin/create/class-admin-create-responder.php:85
+#, php-format
+msgid "Back to %1$sWordPress Dashboard%2$s."
+msgstr "Back to %1$sWordPress Dashboard%2$s."
+
+#: lib/plugin-api/admin/create/class-admin-create-responder.php:76
+#, php-format
+msgid ""
+"%1$s requires PHP %2$s or higher, and has been deactivated. Please contact your "
+"hosting provider about this issue."
+msgstr ""
+"%1$s requires PHP %2$s or higher, and has been deactivated. Please contact your "
+"hosting provider about this issue."
+
+#: lib/plugin-api/admin/create/class-admin-create-responder.php:83
+#, php-format
+msgid ""
+"%s requires GD Library for PHP, which is not installed on your server. Please "
+"contact your hosting provider about this issue."
+msgstr ""
+"%s requires GD Library for PHP, which is not installed on your server. Please "
+"contact your hosting provider about this issue."
+
+#: lib/plugin-api/admin/functions.php:76
+msgid ""
+"This function should not be called more than once. Please hook your actions to "
+"nice_testimonials_plugin_admin_after_init in order to prevent recursion."
+msgstr ""
+"This function should not be called more than once. Please hook your actions to "
+"nice_testimonials_plugin_admin_after_init in order to prevent recursion."
+
+#: lib/plugin-api/functions.php:239
+#, php-format
+msgid "(This message was added in %s version %s.)"
+msgstr "(This message was added in %s version %s.)"
+
+#: lib/plugin-api/functions.php:240
+#, php-format
+msgid "%1$s was called <strong>incorrectly</strong>. %2$s %3$s"
+msgstr "%1$s was called <strong>incorrectly</strong>. %2$s %3$s"
+
+#: lib/plugin-api/plugin/functions.php:70
+msgid ""
+"This function should not be called more than once. Please hook your actions to "
+"nice_testimonials_plugin_after_init in order to prevent recursion."
+msgstr ""
+"This function should not be called more than once. Please hook your actions to "
+"nice_testimonials_plugin_after_init in order to prevent recursion."
+
+#: lib/plugin-api/public/functions.php:67
+msgid ""
+"This function should not be called more than once. Please hook your actions to "
+"nice_testimonials_plugin_public_after_init in order to prevent recursion."
+msgstr ""
+"This function should not be called more than once. Please hook your actions to "
+"nice_testimonials_plugin_public_after_init in order to prevent recursion."
+
+#~ msgid ""
+#~ "<code>%s</code> method is not implemented yet. Please use another method to "
+#~ "display an option for <code>%s</code>"
+#~ msgstr ""
+#~ "<code>%s</code> method is not implemented yet. Please use another method to "
+#~ "display an option for <code>%s</code>"
+
+#~ msgid ""
+#~ "You just installed %1$s. Go to %2$sNice Testimonials Settings%3$s to "
+#~ "configure the plugin or %4$sdismiss this message%5$s."
+#~ msgstr ""
+#~ "You just installed %1$s. Go to %2$sNice Testimonials Settings%3$s to "
+#~ "configure the plugin or %4$sdismiss this message%5$s."
+
+#~ msgid ""
+#~ "This method requires to be used in your child class and receive a value for "
+#~ "$template_slug in order to load a template for your widget form."
+#~ msgstr ""
+#~ "This method requires to be used in your child class and receive a value for "
+#~ "$template_slug in order to load a template for your widget form."
+
+#~ msgid ""
+#~ "This method does not work as a fallback for child classes. You need to extend "
+#~ "the %s class and define a public method called widget for the public side of "
+#~ "your custom widget."
+#~ msgstr ""
+#~ "This method does not work as a fallback for child classes. You need to extend "
+#~ "the %s class and define a public method called widget for the public side of "
+#~ "your custom widget."
+
+#~ msgid ""
+#~ "The number of testimonials to be displayed in a gallery. A value of 0 (zero) "
+#~ "means no testimonials will display. Use -1 (minus one) to display unlimited "
+#~ "testimonials."
+#~ msgstr ""
+#~ "The number of testimonials to be displayed in a gallery. A value of 0 (zero) "
+#~ "means no testimonials will display. Use -1 (minus one) to display unlimited "
+#~ "testimonials."
+
+#~ msgid "The number of columns to be displayed in a gallery."
+#~ msgstr "The number of columns to be displayed in a gallery."
+
+#~ msgid ""
+#~ "If you would like to keep up to date regarding the Testimonials plugin and "
+#~ "other plugins by NiceThemes, subscribe to the newsletter:"
+#~ msgstr ""
+#~ "If you would like to keep up to date regarding the Testimonials plugin and "
+#~ "other plugins by NiceThemes, subscribe to the newsletter:"
+
+#~ msgid "Sort testimonials by:"
+#~ msgstr "Sort testimonials by:"
+
+#~ msgid ""
+#~ "Configure how your Testimonials will be displayed by default. The options "
+#~ "presented here can be overridden in a shortcode basis. You can set the number "
+#~ "of projects to display by default, change the size of the images, select the "
+#~ "information you want to show, etc."
+#~ msgstr ""
+#~ "Configure how your Testimonials will be displayed by default. The options "
+#~ "presented here can be overridden in a shortcode basis. You can set the number "
+#~ "of projects to display by default, change the size of the images, select the "
+#~ "information you want to show, etc."
+
+#~ msgid "Sample Help tab"
+#~ msgstr "Sample Help tab"
+
+#~ msgid ""
+#~ "This is an extended header that can be hidden, or shown, depending on the "
+#~ "screen and the plugin Purpose."
+#~ msgstr ""
+#~ "This is an extended header that can be hidden, or shown, depending on the "
+#~ "screen and the plugin Purpose."
+
+#~ msgid ""
+#~ "Sitewide subhead banner. This is a kinda' front page layout. We need to "
+#~ "define a content-sidebar layout still."
+#~ msgstr ""
+#~ "Sitewide subhead banner. This is a kinda' front page layout. We need to "
+#~ "define a content-sidebar layout still."
+
+#~ msgid "Configure how your testimonials will be displayed by default."
+#~ msgstr "Configure how your testimonials will be displayed by default."
+
+#~ msgid "You can override this setting in shortcodes using the %s property"
+#~ msgstr "You can override this setting in shortcodes using the %s property"
+
+#~ msgid ""
+#~ "This is a sample message. You can %1$s click here %2$s to dismiss this. This "
+#~ "same kind of message can be used for automated update processes."
+#~ msgstr ""
+#~ "This is a sample message. You can %1$s click here %2$s to dismiss this. This "
+#~ "same kind of message can be used for automated update processes."

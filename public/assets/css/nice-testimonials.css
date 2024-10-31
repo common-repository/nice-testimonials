@@ -1,0 +1,296 @@
+/**
+ * Public-facing styles.
+ *
+ * @package Nice_Testimonials
+ * @since   1.0
+ */
+/* ============================================================================
+   Table of Contents.
+   ----------------------------------------------------------------------------
+   1. Widgets.
+   2. Grid Styles.
+   ========================================================================= */
+/* ============================================================================
+   1. Widgets.
+   ========================================================================= */
+.nice-testimonials.widget.default-styles {
+  list-style: none;
+  padding: 0;
+}
+
+.nice-testimonials.widget.default-styles .nice-testimonial {
+  overflow: hidden;
+  margin-bottom: 1.5em;
+}
+
+.nice-testimonials.widget.default-styles .nice-testimonial-thumb {
+  float: left;
+  margin-right: 1em;
+}
+
+.nice-testimonials.widget.default-styles .nice-testimonial-content {
+  overflow: hidden;
+  margin-bottom: 1em;
+}
+
+.nice-testimonials.widget.default-styles .nice-testimonial .nice-testimonial-author {
+  clear: both;
+}
+
+/* ============================================================================
+   2. Grid Styles.
+   ========================================================================= */
+.nice-testimonials.default-styles.grid {
+  overflow: hidden;
+  margin-left: -3%;
+  /* same as your gutter */
+  margin-right: -0.23px;
+}
+
+.nice-testimonials.default-styles.grid:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.nice-testimonials.default-styles.grid-pad {
+  padding: 20px 0 20px 20px;
+}
+
+.nice-testimonials.default-styles.grid-pad > [class*='col-']:last-of-type {
+  padding-right: 20px;
+}
+
+.nice-testimonials.default-styles.grid .nice-testimonial.first, .nice-testimonials.default-styles.grid-pad .nice-testimonial.first {
+  clear: both;
+}
+
+.nice-testimonials.default-styles.grid .nice-testimonial .nice-testimonial-content, .nice-testimonials.default-styles.grid-pad .nice-testimonial .nice-testimonial-content {
+  overflow: hidden;
+  padding: 0;
+  margin-bottom: 1em;
+}
+
+.nice-testimonials.default-styles.grid .nice-testimonial .nice-testimonial-thumb, .nice-testimonials.default-styles.grid-pad .nice-testimonial .nice-testimonial-thumb {
+  float: left;
+  margin-right: 1em;
+}
+
+.nice-testimonials.default-styles.grid .nice-testimonial-thumb, .nice-testimonials.default-styles.grid-pad .nice-testimonial-thumb {
+  overflow: hidden;
+  position: relative;
+}
+
+.nice-testimonials.default-styles.grid .nice-testimonial-thumb img, .nice-testimonials.default-styles.grid-pad .nice-testimonial-thumb img {
+  max-width: 100%;
+}
+
+.nice-testimonials.default-styles.grid .nice-testimonial-title h3, .nice-testimonials.default-styles.grid-pad .nice-testimonial-title h3 {
+  margin: 10px 0 20px;
+}
+
+.nice-testimonials.default-styles.grid .nice-testimonial-title h3 a, .nice-testimonials.default-styles.grid-pad .nice-testimonial-title h3 a {
+  text-decoration: none;
+}
+
+.nice-testimonials.default-styles .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.nice-testimonials.default-styles .row {
+  padding-bottom: 3%;
+}
+
+.nice-testimonials.default-styles [class*='columns-'] {
+  box-sizing: border-box;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  padding-left: 3%;
+}
+
+.nice-testimonials.default-styles [class*='columns-']:last-of-type {
+  padding-right: 0;
+}
+
+.nice-testimonials.default-styles .col-2-3 {
+  width: 66.66%;
+}
+
+.nice-testimonials.default-styles .columns-1 {
+  width: 100%;
+}
+
+.nice-testimonials.default-styles .columns-2 {
+  width: 50%;
+}
+
+.nice-testimonials.default-styles .columns-3 {
+  width: 33.33%;
+}
+
+.nice-testimonials.default-styles .columns-4 {
+  width: 25%;
+}
+
+.nice-testimonials.default-styles .columns-5 {
+  width: 20%;
+}
+
+.nice-testimonials.default-styles .columns-6 {
+  width: 16.66%;
+}
+
+.nice-testimonials.default-styles .columns-7 {
+  width: 14.28%;
+}
+
+.nice-testimonials.default-styles .columns-8 {
+  width: 12.5%;
+}
+
+.nice-testimonials.default-styles .columns-9 {
+  width: 11.11%;
+}
+
+.nice-testimonials.default-styles .columns-10 {
+  width: 10%;
+}
+
+.nice-testimonials.default-styles .columns-11 {
+  width: 9.09%;
+}
+
+.nice-testimonials.default-styles .columns-12 {
+  width: 8.33%;
+}
+
+@media all and (max-width: 320px) {
+  .nice-testimonials.default-styles .columns-2 {
+    width: 100%;
+  }
+}
+
+.nice-testimonials.default-styles .columns-2:nth-child(2n+1) {
+  clear: both;
+}
+
+@media all and (max-width: 320px) {
+  .nice-testimonials.default-styles .columns-3 {
+    width: 100%;
+  }
+}
+
+.nice-testimonials.default-styles .columns-3:nth-child(3n+1) {
+  clear: both;
+}
+
+@media all and (max-width: 320px) {
+  .nice-testimonials.default-styles .columns-4 {
+    width: 100%;
+  }
+}
+
+.nice-testimonials.default-styles .columns-4:nth-child(4n+1) {
+  clear: both;
+}
+
+@media all and (max-width: 320px) {
+  .nice-testimonials.default-styles .columns-5 {
+    width: 100%;
+  }
+}
+
+.nice-testimonials.default-styles .columns-5:nth-child(5n+1) {
+  clear: both;
+}
+
+@media all and (max-width: 320px) {
+  .nice-testimonials.default-styles .columns-6 {
+    width: 100%;
+  }
+}
+
+.nice-testimonials.default-styles .columns-6:nth-child(6n+1) {
+  clear: both;
+}
+
+@media all and (max-width: 320px) {
+  .nice-testimonials.default-styles .columns-7 {
+    width: 100%;
+  }
+}
+
+.nice-testimonials.default-styles .columns-7:nth-child(7n+1) {
+  clear: both;
+}
+
+@media all and (max-width: 320px) {
+  .nice-testimonials.default-styles .columns-8 {
+    width: 100%;
+  }
+}
+
+.nice-testimonials.default-styles .columns-8:nth-child(8n+1) {
+  clear: both;
+}
+
+@media all and (max-width: 320px) {
+  .nice-testimonials.default-styles .columns-9 {
+    width: 100%;
+  }
+}
+
+.nice-testimonials.default-styles .columns-9:nth-child(9n+1) {
+  clear: both;
+}
+
+@media all and (max-width: 320px) {
+  .nice-testimonials.default-styles .columns-10 {
+    width: 100%;
+  }
+}
+
+.nice-testimonials.default-styles .columns-10:nth-child(10n+1) {
+  clear: both;
+}
+
+@media all and (max-width: 320px) {
+  .nice-testimonials.default-styles .columns-11 {
+    width: 100%;
+  }
+}
+
+.nice-testimonials.default-styles .columns-11:nth-child(11n+1) {
+  clear: both;
+}
+
+@media all and (max-width: 320px) {
+  .nice-testimonials.default-styles .columns-12 {
+    width: 100%;
+  }
+}
+
+.nice-testimonials.default-styles .columns-12:nth-child(12n+1) {
+  clear: both;
+}
+
+/* ============================================================================
+   3. Common Styles.
+   ========================================================================= */
+.nice-testimonials.default-styles .nice-testimonial blockquote {
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+.nice-testimonials.default-styles .nice-testimonial cite.nice-testimonial-author span {
+  display: block;
+  font-style: normal;
+}
+
+.nice-testimonials.default-styles .nice-testimonial cite.nice-testimonial-author span.author-name {
+  font-weight: bold;
+}

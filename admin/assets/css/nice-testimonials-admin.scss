@@ -1,0 +1,87 @@
+/**
+ * CSS for testimonial editor.
+ *
+ * @package Nice_Testimonials
+ * @since   1.0
+ */
+.nice-testimonials-gallery-placeholder {
+	margin-right: -13px;
+	position: relative;
+}
+
+.image-container {
+	float: left;
+	height: 80px;
+	overflow: hidden;
+	margin: 0 7px 7px 0;
+	position: relative;
+	width: 80px;
+	img {
+		height: 100%;
+		width: 100%;
+	}
+	.actions {
+		background-color: rgba(0, 0, 0, 0.5);
+		height: 100%;
+		margin: 0;
+		opacity: 0;
+		padding: 0;
+		position: absolute;
+		top: 0;
+		width: 100%;
+		-webkit-transition: opacity .5s ease-out;
+		-moz-transition: opacity .5s ease-out;
+		-ms-transition: opacity .5s ease-out;
+		-o-transition: opacity .5s ease-out;
+		transition: opacity .5s ease-out;
+		&:hover {
+			cursor: move;
+			opacity: 1;
+		}
+		li {
+			display: inline;
+			float: right;
+			margin: 0;
+			padding: 0;
+			a {
+				display: block;
+				color: #ffffff;
+				background: #333333;
+				padding: 3px 4px 0;
+				text-decoration: none;
+				width: 13px;
+				overflow: hidden;
+				&.remove {
+					background-color: darken(red, 5%);
+					&:before {
+						font-family: "dashicons";
+						content: "\f158";
+						margin-right: 3px;
+					}
+				}
+				&.edit {
+					display: none;
+					&:before {
+						font-family: "dashicons";
+						content: "\f464";
+						margin-right: 3px;
+					}
+				}
+			}
+		}
+	}
+}
+
+.wp-list-table {
+	#thumbnail {
+		width: 60px;
+	}
+}
+
+.type-testimonials_post {
+	.column-thumbnail {
+		.row-actions, > a {
+			display: none;
+		}
+	}
+}
